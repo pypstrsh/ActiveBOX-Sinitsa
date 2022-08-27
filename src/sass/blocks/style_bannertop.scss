@@ -69,16 +69,17 @@
 }
 
 @media (max-width: 1510px) {
-  .activebox__bannertop{
+  .activebox__bannertop {
     padding: 100px 0;
 
-    &-title{
+    &-title {
       width: 984px;
 
       font-size: 48px;
       line-height: 56px;
     }
-    &-subtitle{
+
+    &-subtitle {
       width: 897px;
 
       margin-top: 60px;
@@ -86,7 +87,8 @@
       font-size: 18px;
       line-height: 21px;
     }
-    &-button{
+
+    &-button {
       margin-top: 90px;
 
       width: 314px;
@@ -96,19 +98,19 @@
 }
 
 @media (max-width: 1024px) {
-  .activebox__bannertop{
+  .activebox__bannertop {
     width: 100%;
     margin: auto;
   }
 
-   .activebox__bannertop-title{
-     width: 90%;
+  .activebox__bannertop-title {
+    width: 90%;
 
-     font-weight: 900;
-     font-size: 36px;
-     line-height: 42px;
-   }
-  .activebox__bannertop-subtitle{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .activebox__bannertop-subtitle {
     width: 90%;
 
     font-weight: 400;
@@ -116,7 +118,7 @@
     line-height: 16px;
   }
 
-  .activebox__bannertop-button{
+  .activebox__bannertop-button {
     width: 60%;
     min-width: 280px;
   }

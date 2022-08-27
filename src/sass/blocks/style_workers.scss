@@ -86,20 +86,18 @@
       line-height: 16px;
     }
   }
-  .worker__socials img{
+  .worker__socials img {
     width: 33px;
     height: 33px;
   }
 
 }
 
-
-
 @media (max-width: 1024px) {
   .workers {
     width: auto;
 
-    &__wrap_worker{
+    &__wrap_worker {
       width: 280px;
     }
 

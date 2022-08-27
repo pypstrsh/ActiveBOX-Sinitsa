@@ -16,7 +16,6 @@
     width: 348px;
     height: 340px;
   }
-
 }
 
 .activebox__works-work {
@@ -73,7 +72,6 @@
 
     color: #FFFFFF;
   }
-
 }
 
 @media (max-width: 1510px) {
@@ -86,14 +84,14 @@
     }
   }
 
-  .text__block{
-    &_title{
+  .text__block {
+    &_title {
       font-weight: 900;
       font-size: 18px;
       line-height: 21px;
     }
 
-    &_subtitle{
+    &_subtitle {
       padding: 0px;
       font-weight: 400;
       font-size: 14px;
@@ -111,7 +109,7 @@
       max-height: 144px;
     }
 
-    & li{
+    & li {
       max-width: 160px;
       max-height: 150px;
     }
