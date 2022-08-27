@@ -1,0 +1,159 @@
+.footer__wrap {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #353C65;
+}
+
+.footer__elements {
+  display: flex;
+
+
+}
+
+.footer__elements_element {
+  width: 370px;
+  text-align: center;
+}
+
+.element {
+  &__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+
+  &__subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+
+    margin-top: 29px;
+
+    color: #FFFFFF;
+  }
+
+  &__socials {
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 29px;
+    gap: 25px;
+  }
+}
+
+.footer__subtitle_wrap {
+
+  width: 100%;
+  margin-top: 70px;
+
+  background-color: #2C3154;
+}
+
+.footer__subtitle {
+  text-align: center;
+  padding: 23px 0;
+
+  margin: auto;
+
+  max-width: 370px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+
+  color: #808080;
+
+  &_color {
+    color: #FFFFFF;
+  }
+}
+
+@media (max-width: 1510px) {
+  .footer__wrap {
+    padding-top: 46px;
+  }
+
+  .footer__elements_element {
+    width: 315px;
+  }
+
+  .element {
+    &__title {
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    &__subtitle {
+      margin-top: 16px;
+
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    &__socials {
+      margin-top: 16px;
+
+
+      & img {
+        width: 33px;
+        height: 33px;
+      }
+    }
+  }
+
+  .footer__subtitle_wrap {
+    margin-top: 43px;
+  }
+
+
+  .footer__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer__elements {
+    flex-direction: column;
+
+    gap: 70px;
+
+    &_element{
+      width: 280px ;
+    }
+  }
+  .element {
+    &__subtitle {
+      margin-top: 34px;
+    }
+
+    &__socials {
+      margin-top: 34px;
+    }
+  }
+
+  .footer__subtitle{
+    max-width: 280px;
+  }
+
+}
+
+

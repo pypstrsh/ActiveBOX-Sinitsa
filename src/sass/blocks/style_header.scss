@@ -1,0 +1,114 @@
+.activebox__header-banner_bacground {
+  background-image: url("/src/img/banner-top_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.activebox__header {
+  display: flex;
+  justify-content: center;
+}
+
+.header__menu_block {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #BABBC5;
+}
+
+.activebox__header_buttons {
+
+  & li {
+    display: inline-block;
+  }
+
+  &-button {
+    display: block;
+    width: 134px;
+    padding: 25px;
+    text-align: center;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    &:hover {
+      padding-bottom: 22px;
+      border-bottom: 3px solid #BABBC5;
+    }
+
+    &:active {
+      padding-bottom: 22px;
+      border-bottom: 3px solid #E71414;
+      color: #E71414;
+    }
+  }
+}
+
+@media (max-width: 1510px) {
+  .activebox__header-banner_bacground {
+    background-image: url("/src/img/banner-top@Tablet.jpg");
+
+  }
+
+  .header__menu_block {
+    width: 984px;
+  }
+  .activebox__header_buttons-button {
+    width: 112px;
+    padding: 25px 15px;
+    font-size: 12px;
+    line-height: 14px;
+
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .activebox__header-banner_bacground{
+    background-image: url("/src/img/banner_top@Mobile.jpg");
+  }
+
+  .header__menu_block {
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+
+    border: none;
+
+  }
+
+  .header__buttons_wrap {
+    width: 100%;
+  }
+
+  .activebox__header_buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+    &-button {
+      width: 100%;
+
+      text-align: start;
+
+      font-size: 13px;
+      line-height: 15px;
+    }
+  }
+
+  .activebox__header {
+    padding-top: 20px;
+  }
+
+}
+
